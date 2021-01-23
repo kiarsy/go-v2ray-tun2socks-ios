@@ -6,7 +6,7 @@ ANDROID_ARTIFACT=$(BUILDDIR)/tun2socks.aar
 IOS_TARGET=ios
 ANDROID_TARGET=android
 LDFLAGS='-s -w'
-IMPORT_PATH=gitlab.com/kiarsy/go-v2ray-tun2socks-ios
+IMPORT_PATH=github.com/kiarsy/go-v2ray-tun2socks-ios
 
 BUILD_IOS="cd $(BUILDDIR) && $(GOBIND) -a -ldflags $(LDFLAGS) -target=$(IOS_TARGET) -o $(IOS_ARTIFACT) $(IMPORT_PATH)"
 BUILD_ANDROID="cd $(BUILDDIR) && $(GOBIND) -a -ldflags $(LDFLAGS) -target=$(ANDROID_TARGET) -o $(ANDROID_ARTIFACT) $(IMPORT_PATH)"

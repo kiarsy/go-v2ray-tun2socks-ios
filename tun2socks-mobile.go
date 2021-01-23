@@ -13,8 +13,8 @@ import (
 	vbytespool "v2ray.com/core/common/bytespool"
 	vinternet "v2ray.com/core/transport/internet"
 
-	"github.com/kiarsy/go-tun2sockss/core"
-	"github.com/kiarsy/go-tun2sockss/proxy/v2ray"
+	"github.com/kiarsy/go-tun2socks/core"
+	"github.com/kiarsy/go-tun2socks/proxy/v2ray"
 )
 
 var err error
