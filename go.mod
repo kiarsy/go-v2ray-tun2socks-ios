@@ -1,4 +1,4 @@
-module gitlab.com/kiarsy/go-v2ray-tun2socks-ios
+module github.com/kiarsy/-go-v2ray-tun2socks-ios
 
 go 1.13
 
