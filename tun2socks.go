@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eycorsican/go-tun2socks/common/log"
-	"github.com/eycorsican/go-tun2socks/core"
-	"github.com/eycorsican/go-tun2socks/proxy/socks"
-	"github.com/eycorsican/go-tun2socks/proxy/v2ray"
+	"github.com/kiarsy/go-tun2socks/common/log"
+	"github.com/kiarsy/go-tun2socks/core"
+	"github.com/kiarsy/go-tun2socks/proxy/socks"
+	"github.com/kiarsy/go-tun2socks/proxy/v2ray"
 
 	vcore "github.com/v2ray/v2ray-core"
 	vproxyman "github.com/v2ray/v2ray-core/app/proxyman"
